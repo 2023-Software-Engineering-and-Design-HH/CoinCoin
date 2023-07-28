@@ -11,7 +11,7 @@ initialCoin = db["initialCoin"]
 #initialCoin.insert_one({"_id": 'IC', "number": 100, "price": 100})
 postedCoin = db["postedCoin"]
 #거래 history db
-history = db["history"]
+history = db["history"]   
 
 
 app = Flask(__name__)
